@@ -158,6 +158,8 @@ console.log(`A área do círculo com raio ${raio} é: ${area.toFixed(2)}`);
 ```
 a variável const é utilizada para armazenar o valor de Pi, que não será alterado durante a execução do programa. O programa solicita ao usuário que insira o raio do círculo, calcula a área do círculo utilizando a fórmula PI * raio * raio e exibe o resultado na tela
 
+## Escopo 
+
 
 
 
