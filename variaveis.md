@@ -22,7 +22,7 @@ Exemplo variável ```let```:
 -
 - Variável ```let```:A função ```let```é utilizada para criar variáveis com escopo restrito ao bloco em que são definidas. Essas variáveis estão acessíveis apenas dentro do bloco em que são declaradas. Ao contrário das variáveis declaradas com ```var```, as variáveis definidas com ```let``` não são içadas (hoisted) para o topo do seu contexto de execução, permanecendo vinculadas ao bloco onde foram definidas. Além disso, uma variável declarada com ```let```não pode ser redeclarada no mesmo escopo, evitando erros de redefinição. Elas têm escopo de bloco, o que significa que não são acessíveis fora do bloco em que foram definidas, incluindo funções aninhadas. O hoisting das variáveis let é limitado, o que significa que elas não podem ser acessadas antes de sua declaração no código. Essas características tornam a função let.
   
-```
+```js
   // Exemplo de uso da variável let
 
 // Declaração de uma variável 'nome' utilizando let
@@ -59,7 +59,7 @@ Tentamos acessar a variável idade fora do bloco, o que resultaria em um erro, p
 Exemplo variável const:
 -
 -A variável `const` em JavaScript representa um valor constante que não pode ser alterado após a atribuição inicial durante a execução do programa. Com escopo de bloco, as `const` devem ser inicializadas no momento da declaração, ao contrário de `let`. Se uma `const` contém um objeto ou array, seu valor não pode ser substituído, embora suas propriedades ou elementos possam ser modificados. Convencionalmente, identificadores de variáveis `const` são escritos em maiúsculas e separados por sublinhados para representar valores imutáveis ao longo do tempo. Em suma, `const` é fundamental para definir valores constantes e imutáveis em um programa.
-  ```
+  ```js
   // Exemplo de uso da variável const
 
 // Declaração de uma constante 'PI' representando o valor de π
@@ -100,7 +100,7 @@ Isso demonstra como as variáveis const são usadas para declarar valores consta
 desenvolva um programa para calcular a média de notas de um aluno em quatro disciplinas: Matemática, Ciências, História e Português. Crie um programa que solicite ao usuário que insira as notas dessas quatro disciplinas, calcule a média das notas e exiba o resultado na tela.
 
 Utilize uma variável chamada 'var' para armazenar a média das notas.
- ```
+ ```js
     # Solicita ao usuário que insira as notas das quatro disciplinas
 nota_matematica = float(input("Insira a nota de Matemática: "))
 nota_ciencias = float(input("Insira a nota de Ciências: "))
@@ -118,7 +118,7 @@ print("A média das notas é:", var)
   - 
 Você está desenvolvendo um programa para calcular o total de despesas de um mês. O usuário fornecerá o valor de cada despesa, e o programa calculará e exibirá o total dessas despesas. Utilize uma variável chamada let para armazenar o total de despesas.
   
-```
+```js
 // Declaração da variável let para armazenar o total de despesas
 let totalDespesas = 0;
 
@@ -142,7 +142,7 @@ a variável let é utilizada para armazenar o total de despesas do mês. O progr
 Exercício com variável ```const```:
 -
 Você está desenvolvendo um programa para calcular a área de um círculo. O usuário fornecerá o raio do círculo, e o programa calculará e exibirá a área correspondente. Utilize uma variável chamada const para armazenar o valor de Pi, que é aproximadamente 3.14159.
-```
+```js
 // Definição da constante para o valor de Pi
 const PI = 3.14159;
 
@@ -158,7 +158,7 @@ console.log(`A área do círculo com raio ${raio} é: ${area.toFixed(2)}`);
 ```
 a variável const é utilizada para armazenar o valor de Pi, que não será alterado durante a execução do programa. O programa solicita ao usuário que insira o raio do círculo, calcula a área do círculo utilizando a fórmula PI * raio * raio e exibe o resultado na tela
 
-## Escopo 
+
 
 
 
