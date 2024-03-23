@@ -1,11 +1,5 @@
-function verificarCadastro(nome, idade) {
-    if (typeof nome === "string" && nome.trim() !== "" && typeof idade === "number" && idade >= 18) {
-        console.log("Cadastro aceito");
-    } else {
-        console.log("Cadastro recusado");
-    }
+function calcularMedia(numero1, numero2) {
+    return (numero1 + numero2) / 2;
 }
-
-// Exemplo de Uso
-verificarCadastro("Joao", 25); // Saída: Cadastro aceito
-verificarCadastro("", 17); // Saída: Cadastro recusado
+console.log(calcularMedia(5, 10)); 
+console.log(calcularMedia(20, 90)); 

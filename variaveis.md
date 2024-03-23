@@ -10,7 +10,7 @@ Exemplo variável ```var``` :
 - ```VAR```:
   Método usado para declarar variáveis.```var```é diferente do escopo de variáveis declaradas com let ou const. As variáveis declaradas com ```var``` têm escopo de função ou escopo global, o que significa que podem ser acessadas de qualquer lugar dentro da função ou do script onde foram declaradas.
   
-  ```
+  ```js
   var numero = 10;
   var nome = "Joao";
   ```
@@ -97,7 +97,7 @@ Isso demonstra como as variáveis const são usadas para declarar valores consta
 -
 - Exercício com variável ```var```:
   - 
-desenvolva um programa para calcular a média de notas de um aluno em quatro disciplinas: Matemática, Ciências, História e Português. Crie um programa que solicite ao usuário que insira as notas dessas quatro disciplinas, calcule a média das notas e exiba o resultado na tela.
+Desenvolva um programa para calcular a média de notas de um aluno em quatro disciplinas: Matemática, Ciências, História e Português. Crie um programa que solicite ao usuário que insira as notas dessas quatro disciplinas, calcule a média das notas e exiba o resultado na tela.
 
 Utilize uma variável chamada 'var' para armazenar a média das notas.
  ```js
@@ -116,7 +116,7 @@ print("A média das notas é:", var)
 ```
 - Exercício com variável ```let```
   - 
-Você está desenvolvendo um programa para calcular o total de despesas de um mês. O usuário fornecerá o valor de cada despesa, e o programa calculará e exibirá o total dessas despesas. Utilize uma variável chamada let para armazenar o total de despesas.
+ Desenvolva um programa para calcular o total de despesas de um mês. O usuário fornecerá o valor de cada despesa, e o programa calculará e exibirá o total dessas despesas. Utilize uma variável chamada let para armazenar o total de despesas.
   
 ```js
 // Declaração da variável let para armazenar o total de despesas
@@ -141,7 +141,7 @@ a variável let é utilizada para armazenar o total de despesas do mês. O progr
 
 Exercício com variável ```const```:
 -
-Você está desenvolvendo um programa para calcular a área de um círculo. O usuário fornecerá o raio do círculo, e o programa calculará e exibirá a área correspondente. Utilize uma variável chamada const para armazenar o valor de Pi, que é aproximadamente 3.14159.
+Desenvolva um programa para calcular a área de um círculo. O usuário fornecerá o raio do círculo, e o programa calculará e exibirá a área correspondente. Utilize uma variável chamada const para armazenar o valor de Pi, que é aproximadamente 3.14159.
 ```js
 // Definição da constante para o valor de Pi
 const PI = 3.14159;
