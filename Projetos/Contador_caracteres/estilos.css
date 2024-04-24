@@ -3,41 +3,50 @@
     padding:0;
     box-sizing: border-box;
 }
-.container{
+
+body{
     width: 100vw;
     height: 100vh;
     background-color: #8a2be2;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
-.campos-container{
-    background-color: #ffff;
+.container{
     width: 40%;
-    height: 40%;
-    border-radius: 5px;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
+    border-radius: 5px;
+}
 
+.campos-container{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 h1{
     color: #8a2be2;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2.5rem;
 }
+
 #input{
-    width: 80%;
     height: 40%;
     border-radius: 5px;
-
+    padding: 5px;
 }
 
 .contador{
-    margin: 20px;
+    margin: 20px;  
 }
 
 label{
@@ -51,6 +60,5 @@ label{
     height: 40px;
     border-radius: 5px;
     border: #8a2be2;
-    font-size: 1.15rem;
-
+    font-size: 1.2rem;
 }

@@ -11,9 +11,9 @@ function handleBtnContar(evento){
     }else{
         evento.target.innerText ='Contar Caracteres'
         tipoContagem = "Caracteres"
-    }
-   
+    }  
 }
+
 const handleInputTexto =(evento)=>{
     console.log(evento.target.value)
 }
