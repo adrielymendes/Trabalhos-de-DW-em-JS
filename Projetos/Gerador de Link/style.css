@@ -62,6 +62,10 @@ input {
     color: #008000;
 }
 
+.telefoneInvalido{
+    color: #ff0000;
+}
+
 #linkTexto{
     margin-top: 5px;
     padding: 2px;
@@ -72,3 +76,6 @@ input {
     text-align: center;
     margin-top: 7px;
 }
+
+
+
