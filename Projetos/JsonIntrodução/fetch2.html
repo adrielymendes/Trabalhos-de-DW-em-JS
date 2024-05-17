@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .verde{
+            color: green;
+    
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+
+    </div>
+    
+    <script>
+
+    let divcontainer = document.querySelector("#container")
+        fetch("info.json")
+        .then(resposta=> resposta.json())
+
+        .then(objeto =>{
+           // divcontainer.innerHTML=`Nome: ${objeto.nome}. telefone: ${objeto.telefone}`
+           //let lista = document.createElement()
+
+
+           let p1 = document.createElement("p")
+           let p2 = document.createElement("p")
+
+           p1.innerText = objeto.nome 
+           p2.textContent = objeto.telefone
+
+           divcontainer.appendChild(p1)
+           divcontainer.appendChild(p2)
+
+
+
+           let lista = document.createElement("ul")
+
+
+           let item1 = document.createElement("li")
+           let item2 = document.createElement("li")
+
+           item1.innerText = objeto.nome 
+           item2.textContent = objeto.telefone
+
+           item1.classList.add("verde")
+
+           lista.appendChild(item1)
+           lista.appendChild(item2)
+
+           divcontainer.appendChild(lista)
+
+           
+
+        })
+
+
+
+
+
+    </script>
+
+</body>
+</html>
