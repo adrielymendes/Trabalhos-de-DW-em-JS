@@ -20,6 +20,7 @@ numero.addEventListener("input", (evento) => {
 numero.addEventListener("focus", () =>{
     mensagem.textContent = " "
     linkTexto.textContent = " "
+    linkTexto.classList.remove("borda")
 })
 
 function handlebotaoLink() {
@@ -28,8 +29,7 @@ function handlebotaoLink() {
         const link = "https://wa.me/55" + numeroFormatado;
         linkTexto.textContent = link;
         mensagem.textContent = "Clique no link para copiar";
-        linkTexto.style.border = "1px solid black";
-        linkTexto.style.borderRadius = "5px";
+        linkTexto.classList.add("borda")
     } else {
         alert("Erro. O número deve conter 11 dígitos!")
     }
