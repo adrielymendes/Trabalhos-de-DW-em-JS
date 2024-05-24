@@ -17,10 +17,12 @@
 
     let divcontainer = document.querySelector("#container")
         console.log("1")
-        fetch("info.txt").then(resposta=> resposta.text())
+        fetch("info.txt")
+        .then(resposta=> resposta.text())
             // console.log(resposta.text()) )
         .then(texto =>divcontainer.innerHTML(texto))
 
+        .then
         console.log("2")
         console.log("3")
     </script>

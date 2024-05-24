@@ -19,32 +19,29 @@
     <script>
 
     let divcontainer = document.querySelector("#container")
+
         fetch("info.json")
-        .then(resposta=> resposta.json())
+        .then(resposta=> {
+            console.log(resposta)
+            return resposta.json()})
 
         .then(objeto =>{
+            console.log(objeto)
            // divcontainer.innerHTML=`Nome: ${objeto.nome}. telefone: ${objeto.telefone}`
            //let lista = document.createElement()
-
-
-           let p1 = document.createElement("p")
-           let p2 = document.createElement("p")
-
-           p1.innerText = objeto.nome 
-           p2.textContent = objeto.telefone
-
-           divcontainer.appendChild(p1)
-           divcontainer.appendChild(p2)
-
-
+           //let p1 = document.createElement("p")
+           //let p2 = document.createElement("p")
+        //    p1.innerText = objeto.nome 
+        //    p2.textContent = objeto.telefone
+        //    divcontainer.appendChild(p1)
+        //    divcontainer.appendChild(p2)
 
            let lista = document.createElement("ul")
-
 
            let item1 = document.createElement("li")
            let item2 = document.createElement("li")
 
-           item1.innerText = objeto.nome 
+           item1.innerText = objeto.nome // podemos utilizar innertext ou textcontent 
            item2.textContent = objeto.telefone
 
            item1.classList.add("verde")
@@ -54,12 +51,7 @@
 
            divcontainer.appendChild(lista)
 
-           
-
         })
-
-
-
 
 
     </script>
