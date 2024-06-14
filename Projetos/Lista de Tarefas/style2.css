@@ -153,7 +153,7 @@ button{
     border-radius: 5px;
 }
 
-#atividade{
+.atividade{
     display: flex;
     color: var(--gray-100);
     margin: 1.8rem;
@@ -161,7 +161,7 @@ button{
     margin-left: 6px;
 }
 
-#checkbox{
+.checkbox{
     appearance: none;
     width: 24px;
     height: 24px;
